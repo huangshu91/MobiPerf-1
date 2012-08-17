@@ -23,8 +23,8 @@
             android:layout_height="50dip"
             android:gravity="center_vertical"
             android:text="@string/aboutTitle"
-            android:textColor="@android:color/white"
-            android:textSize="25px" />
+            android:textSize="25px"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -41,6 +41,14 @@
             android:text="@string/aboutText"
             android:textColor="@android:color/white"
             android:textSize="20px" />
+        
+        <TextView 
+            android:id="@+id/about_version"
+            android:layout_width="fill_parent"
+            android:layout_height="18dip"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18px" />
 
         <TextView
             android:id="@+id/link1_view"
