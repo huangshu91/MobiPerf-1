@@ -48,6 +48,7 @@
     <string name="menuInitializationExceptionToast">Exception occurs during menu initialization.</string>
     <string name="idleTextForUserConsoleStatusBar">There is no measurement running.</string>
     <string name="powerThreasholdReachedMsg">Measurement paused - below battery threshold</string>
+    <string name="aboutTitle">About</string>
     <string name="aboutText">MobiPerf is open source software for measuring network performance on mobile platforms. You can measure network throughput and latency, as well as other useful network metrics. The collected data are used anonymously in research projects in universities and user credentials are never collected or leaked via this software.</string>
     <string name="aboutContact">Version: 1.0\n\nHomepage:\nhttp://mobiperf.com\n\nCode repository:\nhttps://github.com/Mobiperf/MobiPerf\n\nEmail:\nmobiperf@googlegroups.com</string>
     <string name="btn_network_toggle">Switch 3G/4G</string>

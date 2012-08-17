@@ -153,7 +153,8 @@ public class SpeedometerApp extends TabActivity {
         startActivity(settingsActivity);
         return true;
       case R.id.aboutPage:
-        // TODO (huangshu): Add in MobiPerf about page
+        Intent about = new Intent(getBaseContext(), com.mobiperf.mobiperf.About.class);
+        startActivity(about);
         return true;
       case R.id.menuLog:
         Intent intent = new Intent(getBaseContext(), SystemConsoleActivity.class);
